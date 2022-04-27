@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { pause } from '@services/utils';
+import { pause } from '@service/utils';
 
 describe('Parallel - 2 @grepthis', function () {
   it('should run in parallel', async function () {

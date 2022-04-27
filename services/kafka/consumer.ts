@@ -1,5 +1,5 @@
 import { Kafka, Consumer, logLevel } from 'kafkajs';
-import { pause } from '@services/utils';
+import { pause } from '@service/utils';
 
 export class KafkaConsumer {
   private readonly kafka: Kafka;

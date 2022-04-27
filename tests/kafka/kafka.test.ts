@@ -1,6 +1,5 @@
 import { expect } from 'chai';
-import { KafkaProducer } from '@services/kafka/producer';
-import { KafkaConsumer } from '@services/kafka';
+import { KafkaConsumer, KafkaProducer } from '@service/kafka';
 
 describe.skip('Kafka', function () {
   const kafkaProducer = new KafkaProducer();

@@ -11,8 +11,8 @@
     "types": ["node", "@types/chai", "@types/mocha"],
     "paths": {
       "@config/*": ["./config/*"],
-      "@constants/*": ["./constants/*"],
-      "@services/*": ["./services/*"]
+      "@constant/*": ["./constants/*"],
+      "@service/*": ["./services/*"]
     }
   },
   "exclude": ["node_modules", "./.github", "./.vscode", "./artifacts", "./dist"]

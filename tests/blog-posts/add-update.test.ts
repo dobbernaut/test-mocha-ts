@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import { BlogPost, BlogPosts, NewBlogPost, UpdateBlogPost } from '@services/blog-posts';
-import { StatusCode } from '@constants/http-response-codes';
+import { BlogPost, BlogPosts, NewBlogPost, UpdateBlogPost } from '@service/blog-posts';
+import { StatusCode } from '@constant/http-response-codes';
 
 describe('Add update blog posts', function () {
   const blogPosts = new BlogPosts();
