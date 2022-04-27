@@ -21,7 +21,7 @@ jobs:
         run: yarn install
       - name: Lint project
         if: always()
-        run: yarn lint:pretty
+        run: yarn lint-pretty
       - name: Run API tests
         if: always()
         run: yarn test
