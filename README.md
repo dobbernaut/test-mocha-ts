@@ -37,7 +37,7 @@ Have [nvm](https://github.com/nvm-sh/nvm) installed to make it easier to manage 
 
 ```bash
 nvm use
-yarn install
+yarn ci
 ```
 
 ### Adding node packages
@@ -58,16 +58,10 @@ To [add](https://classic.yarnpkg.com/en/docs/cli/add), use `yarn add -D { packag
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
 # check nvm installed
-command -v nvm
+nvm
 
 # install node
-nvm install node
-
-# or with a specific version
-nvm install node 16.13.0
-
-# it default to the first node installed but to use a different version
-nvm use 16.13.0
+nvm install 16.13.0
 
 # install yarn globally
 npm install -g yarn
@@ -94,17 +88,14 @@ Download the setup.zip file from the [latest release](https://github.com/coreybu
 # check nvm installed
 nvm
 
-# install a version of node
+# install node
 nvm install 16.13.0
 
-# use a version of node
-nvm use 16.13.0
-
-# check if yarn is installed
-yarn -v
-
-# if yarn not installed, install it globally
+# install yarn globally
 npm install -g yarn
+
+# check yarn working properly
+yarn --version
 ```
 
 ## Setup
